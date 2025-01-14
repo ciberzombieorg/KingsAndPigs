@@ -812,7 +812,7 @@ GameObject:
   - component: {fileID: 4484680110496217722}
   - component: {fileID: 6847600585842894470}
   m_Layer: 0
-  m_Name: GroundPalette
+  m_Name: BordersPalette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
