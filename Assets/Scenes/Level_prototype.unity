@@ -4705,7 +4705,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.77, y: 2.79, z: 0}
-  m_LocalScale: {x: 1.0116, y: 1.0273, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4744,7 +4744,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.24803905, y: -0.056144875}
+  m_Offset: {x: -0.02, y: -0.056144875}
   m_Size: {x: 0.5021048, y: 0.8062473}
   m_Direction: 0
 --- !u!50 &1878941646
@@ -4816,6 +4816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8df2f9622e22fc44da609616a9f4c4bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
 --- !u!114 &1878941649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4828,7 +4829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cbb1383c6911674aaf28a29311f7e0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  valueX: 0
+  _valueX: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
